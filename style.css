@@ -290,3 +290,36 @@ footer h1
     text-decoration: none;
     color: #760001;
 }
+@media only screen and (max-width:1024px)
+{
+    #banniere_image
+    {display: none;}
+
+    header{display: flex;
+    justify-content: flex-start;}
+
+    ul{flex-direction: column;}
+
+    li{font-size: small;}
+
+   section{display: flex;
+    flex-direction: column;}
+
+    article p {font-size: small;}
+
+    aside{display: flex;
+        flex-direction: column;
+        }
+
+    aside p{width:75%;
+        }
+    #photo_zozor{width: 25%;
+        height: 25%;
+        align-self: flex-end;
+        position: absolute;
+        }
+
+    aside p:last-child {display: block;
+        text-align: center;}
+    
+}
